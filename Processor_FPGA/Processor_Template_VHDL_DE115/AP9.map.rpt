@@ -1,5 +1,5 @@
 Analysis & Synthesis report for AP9
-Tue May 19 20:58:29 2015
+Wed Jul 01 09:15:19 2015
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -19,39 +19,38 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
  11. State Machine - |AP9|cpu:inst16|state
  12. User-Specified and Inferred Latches
  13. Registers Removed During Synthesis
- 14. Removed Registers Triggering Further Register Optimizations
- 15. General Register Statistics
- 16. Inverted Register Statistics
- 17. Multiplexer Restructuring Statistics (Restructuring Performed)
- 18. Source assignments for VGA_MOD:inst|lpm_ram_dq0:inst3|altsyncram:altsyncram_component|altsyncram_8rc1:auto_generated
- 19. Source assignments for VGA_MOD:inst|fifo0:inst7|scfifo:scfifo_component|scfifo_it21:auto_generated|a_dpfifo_p331:dpfifo|altsyncram_58e1:FIFOram
- 20. Source assignments for VGA_MOD:inst|lpm_ram_dq1:inst2|altsyncram:altsyncram_component|altsyncram_4rc1:auto_generated
- 21. Source assignments for RAM:inst6|altsyncram:altsyncram_component|altsyncram_thc1:auto_generated
- 22. Source assignments for lpm_rom0:inst3|altsyncram:altsyncram_component|altsyncram_nd71:auto_generated
- 23. Parameter Settings for User Entity Instance: VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff0:inst1|lpm_ff:lpm_ff_component
- 24. Parameter Settings for User Entity Instance: VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component
- 25. Parameter Settings for User Entity Instance: VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff2:inst4|lpm_ff:lpm_ff_component
- 26. Parameter Settings for User Entity Instance: VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff2:inst3|lpm_ff:lpm_ff_component
- 27. Parameter Settings for User Entity Instance: VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff2:inst2|lpm_ff:lpm_ff_component
- 28. Parameter Settings for User Entity Instance: VGA_MOD:inst|BUSMUX:inst13
- 29. Parameter Settings for User Entity Instance: VGA_MOD:inst|lpm_ram_dq0:inst3|altsyncram:altsyncram_component
- 30. Parameter Settings for User Entity Instance: VGA_MOD:inst|fifo0:inst7|scfifo:scfifo_component
- 31. Parameter Settings for User Entity Instance: VGA_MOD:inst|BUSMUX:inst15
- 32. Parameter Settings for User Entity Instance: VGA_MOD:inst|lpm_ram_dq1:inst2|altsyncram:altsyncram_component
- 33. Parameter Settings for User Entity Instance: VGA_MOD:inst|BUSMUX:inst14
- 34. Parameter Settings for User Entity Instance: lpm_dff1:inst1|lpm_ff:lpm_ff_component
- 35. Parameter Settings for User Entity Instance: RAM:inst6|altsyncram:altsyncram_component
- 36. Parameter Settings for User Entity Instance: lpm_rom0:inst3|altsyncram:altsyncram_component
- 37. Parameter Settings for Inferred Entity Instance: cpu:inst16|lpm_divide:Div0
- 38. Parameter Settings for Inferred Entity Instance: cpu:inst16|lpm_mult:Mult0
- 39. Parameter Settings for Inferred Entity Instance: cpu:inst16|lpm_divide:Mod0
- 40. Parameter Settings for Inferred Entity Instance: POS_CONV:inst13|lpm_divide:Mod0
- 41. Parameter Settings for Inferred Entity Instance: POS_CONV:inst13|lpm_divide:Div0
- 42. altsyncram Parameter Settings by Entity Instance
- 43. scfifo Parameter Settings by Entity Instance
- 44. lpm_mult Parameter Settings by Entity Instance
- 45. Elapsed Time Per Partition
- 46. Analysis & Synthesis Messages
+ 14. General Register Statistics
+ 15. Inverted Register Statistics
+ 16. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 17. Source assignments for VGA_MOD:inst|lpm_ram_dq0:inst3|altsyncram:altsyncram_component|altsyncram_8rc1:auto_generated
+ 18. Source assignments for VGA_MOD:inst|fifo0:inst7|scfifo:scfifo_component|scfifo_it21:auto_generated|a_dpfifo_p331:dpfifo|altsyncram_58e1:FIFOram
+ 19. Source assignments for VGA_MOD:inst|lpm_ram_dq1:inst2|altsyncram:altsyncram_component|altsyncram_4rc1:auto_generated
+ 20. Source assignments for RAM:inst6|altsyncram:altsyncram_component|altsyncram_thc1:auto_generated
+ 21. Source assignments for lpm_rom0:inst3|altsyncram:altsyncram_component|altsyncram_nd71:auto_generated
+ 22. Parameter Settings for User Entity Instance: VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff0:inst1|lpm_ff:lpm_ff_component
+ 23. Parameter Settings for User Entity Instance: VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff0:inst|lpm_ff:lpm_ff_component
+ 24. Parameter Settings for User Entity Instance: VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff2:inst4|lpm_ff:lpm_ff_component
+ 25. Parameter Settings for User Entity Instance: VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+ 26. Parameter Settings for User Entity Instance: VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+ 27. Parameter Settings for User Entity Instance: VGA_MOD:inst|BUSMUX:inst13
+ 28. Parameter Settings for User Entity Instance: VGA_MOD:inst|lpm_ram_dq0:inst3|altsyncram:altsyncram_component
+ 29. Parameter Settings for User Entity Instance: VGA_MOD:inst|fifo0:inst7|scfifo:scfifo_component
+ 30. Parameter Settings for User Entity Instance: VGA_MOD:inst|BUSMUX:inst15
+ 31. Parameter Settings for User Entity Instance: VGA_MOD:inst|lpm_ram_dq1:inst2|altsyncram:altsyncram_component
+ 32. Parameter Settings for User Entity Instance: VGA_MOD:inst|BUSMUX:inst14
+ 33. Parameter Settings for User Entity Instance: lpm_dff1:inst1|lpm_ff:lpm_ff_component
+ 34. Parameter Settings for User Entity Instance: RAM:inst6|altsyncram:altsyncram_component
+ 35. Parameter Settings for User Entity Instance: lpm_rom0:inst3|altsyncram:altsyncram_component
+ 36. Parameter Settings for Inferred Entity Instance: cpu:inst16|lpm_divide:Div0
+ 37. Parameter Settings for Inferred Entity Instance: cpu:inst16|lpm_mult:Mult0
+ 38. Parameter Settings for Inferred Entity Instance: cpu:inst16|lpm_divide:Mod0
+ 39. Parameter Settings for Inferred Entity Instance: POS_CONV:inst13|lpm_divide:Mod0
+ 40. Parameter Settings for Inferred Entity Instance: POS_CONV:inst13|lpm_divide:Div0
+ 41. altsyncram Parameter Settings by Entity Instance
+ 42. scfifo Parameter Settings by Entity Instance
+ 43. lpm_mult Parameter Settings by Entity Instance
+ 44. Elapsed Time Per Partition
+ 45. Analysis & Synthesis Messages
 
 
 
@@ -77,15 +76,15 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue May 19 20:58:29 2015           ;
+; Analysis & Synthesis Status        ; Successful - Wed Jul 01 09:15:19 2015           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; AP9                                             ;
 ; Top-level Entity Name              ; AP9                                             ;
 ; Family                             ; Cyclone IV E                                    ;
-; Total logic elements               ; 3,774                                           ;
-;     Total combinational functions  ; 3,613                                           ;
-;     Dedicated logic registers      ; 770                                             ;
-; Total registers                    ; 770                                             ;
+; Total logic elements               ; 3,823                                           ;
+;     Total combinational functions  ; 3,662                                           ;
+;     Dedicated logic registers      ; 771                                             ;
+; Total registers                    ; 771                                             ;
 ; Total pins                         ; 69                                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 946,176                                         ;
@@ -187,110 +186,110 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 ; Processors                 ; Number ;
 +----------------------------+--------+
-; Number detected on machine ; 2      ;
+; Number detected on machine ; 8      ;
 ; Maximum allowed            ; 1      ;
 +----------------------------+--------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                    ;
-+----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                                    ; Library ;
-+----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------------------------------+---------+
-; AP9.bdf                          ; yes             ; User Block Diagram/Schematic File        ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/AP9.bdf                    ;         ;
-; lpm_rom0.vhd                     ; yes             ; User Wizard-Generated File               ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/lpm_rom0.vhd               ;         ;
-; TEXT_DRAWER.vhd                  ; yes             ; User VHDL File                           ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/TEXT_DRAWER.vhd            ;         ;
-; VGA_MOD.bdf                      ; yes             ; User Block Diagram/Schematic File        ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/VGA_MOD.bdf                ;         ;
-; video_mem2.mif                   ; yes             ; User Memory Initialization File          ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/video_mem2.mif             ;         ;
-; vga_sync.vhd                     ; yes             ; User VHDL File                           ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/vga_sync.vhd               ;         ;
-; LCD_MOD.vhd                      ; yes             ; User VHDL File                           ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/LCD_MOD.vhd                ;         ;
-; ASCII_CONV.vhd                   ; yes             ; User VHDL File                           ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/ASCII_CONV.vhd             ;         ;
-; RAM.vhd                          ; yes             ; User Wizard-Generated File               ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/RAM.vhd                    ;         ;
-; cpuram.mif                       ; yes             ; User Memory Initialization File          ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/cpuram.mif                 ;         ;
-; POS_CONV.vhd                     ; yes             ; User VHDL File                           ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/POS_CONV.vhd               ;         ;
-; testeabc.vhd                     ; yes             ; User VHDL File                           ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/testeabc.vhd               ;         ;
-; video_filter.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/video_filter.bdf           ;         ;
-; lpm_dff0.vhd                     ; yes             ; Auto-Found Wizard-Generated File         ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/lpm_dff0.vhd               ;         ;
-; lpm_ff.tdf                       ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_ff.tdf                                    ;         ;
-; lpm_constant.inc                 ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_constant.inc                              ;         ;
-; aglobal130.inc                   ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc                                ;         ;
-; lpm_dff2.vhd                     ; yes             ; Auto-Found Wizard-Generated File         ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/lpm_dff2.vhd               ;         ;
-; color_bridge.vhd                 ; yes             ; Auto-Found VHDL File                     ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/color_bridge.vhd           ;         ;
-; busmux.tdf                       ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/busmux.tdf                                    ;         ;
-; lpm_mux.inc                      ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mux.inc                                   ;         ;
-; lpm_mux.tdf                      ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mux.tdf                                   ;         ;
-; muxlut.inc                       ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/muxlut.inc                                    ;         ;
-; bypassff.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/bypassff.inc                                  ;         ;
-; altshift.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altshift.inc                                  ;         ;
-; db/mux_arc.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/mux_arc.tdf             ;         ;
-; lpm_ram_dq0.vhd                  ; yes             ; Auto-Found Wizard-Generated File         ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/lpm_ram_dq0.vhd            ;         ;
-; altsyncram.tdf                   ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altsyncram.tdf                                ;         ;
-; stratix_ram_block.inc            ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/stratix_ram_block.inc                         ;         ;
-; lpm_decode.inc                   ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_decode.inc                                ;         ;
-; a_rdenreg.inc                    ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_rdenreg.inc                                 ;         ;
-; altrom.inc                       ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altrom.inc                                    ;         ;
-; altram.inc                       ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altram.inc                                    ;         ;
-; altdpram.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altdpram.inc                                  ;         ;
-; db/altsyncram_8rc1.tdf           ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/altsyncram_8rc1.tdf     ;         ;
-; video_mem1.mif                   ; yes             ; Auto-Found Memory Initialization File    ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/video_mem1.mif             ;         ;
-; db/decode_rsa.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/decode_rsa.tdf          ;         ;
-; db/decode_k8a.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/decode_k8a.tdf          ;         ;
-; db/mux_7nb.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/mux_7nb.tdf             ;         ;
-; demux.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/demux.bdf                  ;         ;
-; fifo0.vhd                        ; yes             ; Auto-Found Wizard-Generated File         ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/fifo0.vhd                  ;         ;
-; scfifo.tdf                       ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/scfifo.tdf                                    ;         ;
-; a_regfifo.inc                    ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_regfifo.inc                                 ;         ;
-; a_dpfifo.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_dpfifo.inc                                  ;         ;
-; a_i2fifo.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_i2fifo.inc                                  ;         ;
-; a_fffifo.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_fffifo.inc                                  ;         ;
-; a_f2fifo.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_f2fifo.inc                                  ;         ;
-; db/scfifo_it21.tdf               ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/scfifo_it21.tdf         ;         ;
-; db/a_dpfifo_p331.tdf             ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/a_dpfifo_p331.tdf       ;         ;
-; db/altsyncram_58e1.tdf           ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/altsyncram_58e1.tdf     ;         ;
-; db/cmpr_0u8.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/cmpr_0u8.tdf            ;         ;
-; db/cntr_dpb.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/cntr_dpb.tdf            ;         ;
-; db/cntr_qp7.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/cntr_qp7.tdf            ;         ;
-; db/cntr_epb.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/cntr_epb.tdf            ;         ;
-; db/mux_tsc.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/mux_tsc.tdf             ;         ;
-; lpm_ram_dq1.vhd                  ; yes             ; Auto-Found Wizard-Generated File         ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/lpm_ram_dq1.vhd            ;         ;
-; db/altsyncram_4rc1.tdf           ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/altsyncram_4rc1.tdf     ;         ;
-; db/decode_jsa.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/decode_jsa.tdf          ;         ;
-; db/decode_c8a.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/decode_c8a.tdf          ;         ;
-; db/mux_vmb.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/mux_vmb.tdf             ;         ;
-; db/mux_rsc.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/mux_rsc.tdf             ;         ;
-; lpm_dff1.vhd                     ; yes             ; Auto-Found Wizard-Generated File         ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/lpm_dff1.vhd               ;         ;
-; cpu.vhd                          ; yes             ; Auto-Found VHDL File                     ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/cpu.vhd                    ;         ;
-; seletorclock.v                   ; yes             ; Auto-Found Verilog HDL File              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/seletorclock.v             ;         ;
-; clk_div.vhd                      ; yes             ; Auto-Found VHDL File                     ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/clk_div.vhd                ;         ;
-; debounce.vhd                     ; yes             ; Auto-Found VHDL File                     ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/debounce.vhd               ;         ;
-; dec_keyboard.vhd                 ; yes             ; Auto-Found VHDL File                     ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/dec_keyboard.vhd           ;         ;
-; keyboard.vhd                     ; yes             ; Auto-Found VHDL File                     ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/keyboard.vhd               ;         ;
-; db/altsyncram_thc1.tdf           ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/altsyncram_thc1.tdf     ;         ;
-; db/decode_msa.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/decode_msa.tdf          ;         ;
-; db/decode_f8a.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/decode_f8a.tdf          ;         ;
-; db/mux_lob.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/mux_lob.tdf             ;         ;
-; db/altsyncram_nd71.tdf           ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/altsyncram_nd71.tdf     ;         ;
-; charmap.mif                      ; yes             ; Auto-Found Memory Initialization File    ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/charmap.mif                ;         ;
-; lpm_divide.tdf                   ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_divide.tdf                                ;         ;
-; abs_divider.inc                  ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/abs_divider.inc                               ;         ;
-; sign_div_unsign.inc              ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/sign_div_unsign.inc                           ;         ;
-; db/lpm_divide_lkm.tdf            ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/lpm_divide_lkm.tdf      ;         ;
-; db/sign_div_unsign_dnh.tdf       ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/sign_div_unsign_dnh.tdf ;         ;
-; db/alt_u_div_eaf.tdf             ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/alt_u_div_eaf.tdf       ;         ;
-; db/add_sub_7pc.tdf               ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/add_sub_7pc.tdf         ;         ;
-; db/add_sub_8pc.tdf               ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/add_sub_8pc.tdf         ;         ;
-; lpm_mult.tdf                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mult.tdf                                  ;         ;
-; lpm_add_sub.inc                  ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_add_sub.inc                               ;         ;
-; multcore.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/multcore.inc                                  ;         ;
-; db/mult_7dt.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/mult_7dt.tdf            ;         ;
-; db/lpm_divide_ocm.tdf            ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/lpm_divide_ocm.tdf      ;         ;
-; db/lpm_divide_ecm.tdf            ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/lpm_divide_ecm.tdf      ;         ;
-; db/sign_div_unsign_3nh.tdf       ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/sign_div_unsign_3nh.tdf ;         ;
-; db/alt_u_div_q9f.tdf             ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/alt_u_div_q9f.tdf       ;         ;
-; db/lpm_divide_vim.tdf            ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/lpm_divide_vim.tdf      ;         ;
-; db/sign_div_unsign_nlh.tdf       ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/sign_div_unsign_nlh.tdf ;         ;
-; db/alt_u_div_27f.tdf             ; yes             ; Auto-Generated Megafunction              ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/db/alt_u_div_27f.tdf       ;         ;
-+----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                        ;
++----------------------------------+-----------------+------------------------------------------+---------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                                                        ; Library ;
++----------------------------------+-----------------+------------------------------------------+---------------------------------------------------------------------------------------------------------------------+---------+
+; AP9.bdf                          ; yes             ; User Block Diagram/Schematic File        ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/AP9.bdf                    ;         ;
+; lpm_rom0.vhd                     ; yes             ; User Wizard-Generated File               ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/lpm_rom0.vhd               ;         ;
+; TEXT_DRAWER.vhd                  ; yes             ; User VHDL File                           ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/TEXT_DRAWER.vhd            ;         ;
+; VGA_MOD.bdf                      ; yes             ; User Block Diagram/Schematic File        ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/VGA_MOD.bdf                ;         ;
+; video_mem2.mif                   ; yes             ; User Memory Initialization File          ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/video_mem2.mif             ;         ;
+; vga_sync.vhd                     ; yes             ; User VHDL File                           ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/vga_sync.vhd               ;         ;
+; LCD_MOD.vhd                      ; yes             ; User VHDL File                           ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/LCD_MOD.vhd                ;         ;
+; ASCII_CONV.vhd                   ; yes             ; User VHDL File                           ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/ASCII_CONV.vhd             ;         ;
+; RAM.vhd                          ; yes             ; User Wizard-Generated File               ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/RAM.vhd                    ;         ;
+; cpuram.mif                       ; yes             ; User Memory Initialization File          ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/cpuram.mif                 ;         ;
+; POS_CONV.vhd                     ; yes             ; User VHDL File                           ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/POS_CONV.vhd               ;         ;
+; testeabc.vhd                     ; yes             ; User VHDL File                           ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/testeabc.vhd               ;         ;
+; video_filter.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/video_filter.bdf           ;         ;
+; lpm_dff0.vhd                     ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/lpm_dff0.vhd               ;         ;
+; lpm_ff.tdf                       ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_ff.tdf                                                        ;         ;
+; lpm_constant.inc                 ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_constant.inc                                                  ;         ;
+; aglobal130.inc                   ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc                                                    ;         ;
+; lpm_dff2.vhd                     ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/lpm_dff2.vhd               ;         ;
+; color_bridge.vhd                 ; yes             ; Auto-Found VHDL File                     ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/color_bridge.vhd           ;         ;
+; busmux.tdf                       ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/busmux.tdf                                                        ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mux.inc                                                       ;         ;
+; lpm_mux.tdf                      ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mux.tdf                                                       ;         ;
+; muxlut.inc                       ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/muxlut.inc                                                        ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/bypassff.inc                                                      ;         ;
+; altshift.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altshift.inc                                                      ;         ;
+; db/mux_arc.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/mux_arc.tdf             ;         ;
+; lpm_ram_dq0.vhd                  ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/lpm_ram_dq0.vhd            ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altsyncram.tdf                                                    ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/stratix_ram_block.inc                                             ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_decode.inc                                                    ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_rdenreg.inc                                                     ;         ;
+; altrom.inc                       ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altrom.inc                                                        ;         ;
+; altram.inc                       ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altram.inc                                                        ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altdpram.inc                                                      ;         ;
+; db/altsyncram_8rc1.tdf           ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/altsyncram_8rc1.tdf     ;         ;
+; video_mem1.mif                   ; yes             ; Auto-Found Memory Initialization File    ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/video_mem1.mif             ;         ;
+; db/decode_rsa.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/decode_rsa.tdf          ;         ;
+; db/decode_k8a.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/decode_k8a.tdf          ;         ;
+; db/mux_7nb.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/mux_7nb.tdf             ;         ;
+; demux.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/demux.bdf                  ;         ;
+; fifo0.vhd                        ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/fifo0.vhd                  ;         ;
+; scfifo.tdf                       ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/scfifo.tdf                                                        ;         ;
+; a_regfifo.inc                    ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_regfifo.inc                                                     ;         ;
+; a_dpfifo.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_dpfifo.inc                                                      ;         ;
+; a_i2fifo.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_i2fifo.inc                                                      ;         ;
+; a_fffifo.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_fffifo.inc                                                      ;         ;
+; a_f2fifo.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_f2fifo.inc                                                      ;         ;
+; db/scfifo_it21.tdf               ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/scfifo_it21.tdf         ;         ;
+; db/a_dpfifo_p331.tdf             ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/a_dpfifo_p331.tdf       ;         ;
+; db/altsyncram_58e1.tdf           ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/altsyncram_58e1.tdf     ;         ;
+; db/cmpr_0u8.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/cmpr_0u8.tdf            ;         ;
+; db/cntr_dpb.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/cntr_dpb.tdf            ;         ;
+; db/cntr_qp7.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/cntr_qp7.tdf            ;         ;
+; db/cntr_epb.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/cntr_epb.tdf            ;         ;
+; db/mux_tsc.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/mux_tsc.tdf             ;         ;
+; lpm_ram_dq1.vhd                  ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/lpm_ram_dq1.vhd            ;         ;
+; db/altsyncram_4rc1.tdf           ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/altsyncram_4rc1.tdf     ;         ;
+; db/decode_jsa.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/decode_jsa.tdf          ;         ;
+; db/decode_c8a.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/decode_c8a.tdf          ;         ;
+; db/mux_vmb.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/mux_vmb.tdf             ;         ;
+; db/mux_rsc.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/mux_rsc.tdf             ;         ;
+; lpm_dff1.vhd                     ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/lpm_dff1.vhd               ;         ;
+; cpu.vhd                          ; yes             ; Auto-Found VHDL File                     ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/cpu.vhd                    ;         ;
+; seletorclock.v                   ; yes             ; Auto-Found Verilog HDL File              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/seletorclock.v             ;         ;
+; clk_div.vhd                      ; yes             ; Auto-Found VHDL File                     ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/clk_div.vhd                ;         ;
+; debounce.vhd                     ; yes             ; Auto-Found VHDL File                     ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/debounce.vhd               ;         ;
+; dec_keyboard.vhd                 ; yes             ; Auto-Found VHDL File                     ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/dec_keyboard.vhd           ;         ;
+; keyboard.vhd                     ; yes             ; Auto-Found VHDL File                     ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/keyboard.vhd               ;         ;
+; db/altsyncram_thc1.tdf           ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/altsyncram_thc1.tdf     ;         ;
+; db/decode_msa.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/decode_msa.tdf          ;         ;
+; db/decode_f8a.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/decode_f8a.tdf          ;         ;
+; db/mux_lob.tdf                   ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/mux_lob.tdf             ;         ;
+; db/altsyncram_nd71.tdf           ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/altsyncram_nd71.tdf     ;         ;
+; charmap.mif                      ; yes             ; Auto-Found Memory Initialization File    ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/charmap.mif                ;         ;
+; lpm_divide.tdf                   ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_divide.tdf                                                    ;         ;
+; abs_divider.inc                  ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/abs_divider.inc                                                   ;         ;
+; sign_div_unsign.inc              ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/sign_div_unsign.inc                                               ;         ;
+; db/lpm_divide_lkm.tdf            ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/lpm_divide_lkm.tdf      ;         ;
+; db/sign_div_unsign_dnh.tdf       ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/sign_div_unsign_dnh.tdf ;         ;
+; db/alt_u_div_eaf.tdf             ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/alt_u_div_eaf.tdf       ;         ;
+; db/add_sub_7pc.tdf               ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/add_sub_7pc.tdf         ;         ;
+; db/add_sub_8pc.tdf               ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/add_sub_8pc.tdf         ;         ;
+; lpm_mult.tdf                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mult.tdf                                                      ;         ;
+; lpm_add_sub.inc                  ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_add_sub.inc                                                   ;         ;
+; multcore.inc                     ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/multcore.inc                                                      ;         ;
+; db/mult_7dt.tdf                  ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/mult_7dt.tdf            ;         ;
+; db/lpm_divide_ocm.tdf            ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/lpm_divide_ocm.tdf      ;         ;
+; db/lpm_divide_ecm.tdf            ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/lpm_divide_ecm.tdf      ;         ;
+; db/sign_div_unsign_3nh.tdf       ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/sign_div_unsign_3nh.tdf ;         ;
+; db/alt_u_div_q9f.tdf             ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/alt_u_div_q9f.tdf       ;         ;
+; db/lpm_divide_vim.tdf            ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/lpm_divide_vim.tdf      ;         ;
+; db/sign_div_unsign_nlh.tdf       ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/sign_div_unsign_nlh.tdf ;         ;
+; db/alt_u_div_27f.tdf             ; yes             ; Auto-Generated Megafunction              ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/db/alt_u_div_27f.tdf       ;         ;
++----------------------------------+-----------------+------------------------------------------+---------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +------------------------------------------------------+
@@ -298,20 +297,20 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+--------+
 ; Resource                                    ; Usage  ;
 +---------------------------------------------+--------+
-; Estimated Total logic elements              ; 3,774  ;
+; Estimated Total logic elements              ; 3,823  ;
 ;                                             ;        ;
-; Total combinational functions               ; 3613   ;
+; Total combinational functions               ; 3662   ;
 ; Logic element usage by number of LUT inputs ;        ;
-;     -- 4 input functions                    ; 2118   ;
-;     -- 3 input functions                    ; 1113   ;
-;     -- <=2 input functions                  ; 382    ;
+;     -- 4 input functions                    ; 2159   ;
+;     -- 3 input functions                    ; 1122   ;
+;     -- <=2 input functions                  ; 381    ;
 ;                                             ;        ;
 ; Logic elements by mode                      ;        ;
-;     -- normal mode                          ; 3030   ;
+;     -- normal mode                          ; 3079   ;
 ;     -- arithmetic mode                      ; 583    ;
 ;                                             ;        ;
-; Total registers                             ; 770    ;
-;     -- Dedicated logic registers            ; 770    ;
+; Total registers                             ; 771    ;
+;     -- Dedicated logic registers            ; 771    ;
 ;     -- I/O registers                        ; 0      ;
 ;                                             ;        ;
 ; I/O pins                                    ; 69     ;
@@ -319,7 +318,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Embedded Multiplier 9-bit elements          ; 2      ;
 ; Maximum fan-out node                        ; inst10 ;
 ; Maximum fan-out                             ; 506    ;
-; Total fan-out                               ; 17729  ;
+; Total fan-out                               ; 17926  ;
 ; Average fan-out                             ; 3.81   ;
 +---------------------------------------------+--------+
 
@@ -329,7 +328,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                   ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                   ; Library Name ;
 +----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |AP9                                         ; 3613 (3)          ; 770 (0)      ; 946176      ; 2            ; 0       ; 1         ; 69   ; 0            ; |AP9                                                                                                                                  ; work         ;
+; |AP9                                         ; 3662 (3)          ; 771 (0)      ; 946176      ; 2            ; 0       ; 1         ; 69   ; 0            ; |AP9                                                                                                                                  ; work         ;
 ;    |LCD_MOD:inst12|                          ; 241 (241)         ; 73 (73)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |AP9|LCD_MOD:inst12                                                                                                                   ; work         ;
 ;    |POS_CONV:inst13|                         ; 212 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |AP9|POS_CONV:inst13                                                                                                                  ; work         ;
 ;       |lpm_divide:Div0|                      ; 87 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |AP9|POS_CONV:inst13|lpm_divide:Div0                                                                                                  ; work         ;
@@ -388,7 +387,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |altsyncram_4rc1:auto_generated| ; 2 (0)             ; 0 (0)        ; 65536       ; 0            ; 0       ; 0         ; 0    ; 0            ; |AP9|VGA_MOD:inst|lpm_ram_dq1:inst2|altsyncram:altsyncram_component|altsyncram_4rc1:auto_generated                                    ; work         ;
 ;                |decode_jsa:decode3|          ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |AP9|VGA_MOD:inst|lpm_ram_dq1:inst2|altsyncram:altsyncram_component|altsyncram_4rc1:auto_generated|decode_jsa:decode3                 ; work         ;
 ;    |clk_div:inst25|                          ; 31 (31)           ; 37 (37)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |AP9|clk_div:inst25                                                                                                                   ; work         ;
-;    |cpu:inst16|                              ; 2578 (2038)       ; 385 (385)    ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |AP9|cpu:inst16                                                                                                                       ; work         ;
+;    |cpu:inst16|                              ; 2627 (2087)       ; 386 (386)    ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |AP9|cpu:inst16                                                                                                                       ; work         ;
 ;       |lpm_divide:Div0|                      ; 267 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |AP9|cpu:inst16|lpm_divide:Div0                                                                                                       ; work         ;
 ;          |lpm_divide_lkm:auto_generated|     ; 267 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |AP9|cpu:inst16|lpm_divide:Div0|lpm_divide_lkm:auto_generated                                                                         ; work         ;
 ;             |sign_div_unsign_dnh:divider|    ; 267 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |AP9|cpu:inst16|lpm_divide:Div0|lpm_divide_lkm:auto_generated|sign_div_unsign_dnh:divider                                             ; work         ;
@@ -444,23 +443,23 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Note: number of Embedded Multiplier Blocks used is only available after a successful fit.
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                                                                                                                                      ;
-+--------+--------------+---------+--------------+--------------+-----------------------------------------------------+--------------------------------------------------------------------------------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                     ; IP Include File                                                                      ;
-+--------+--------------+---------+--------------+--------------+-----------------------------------------------------+--------------------------------------------------------------------------------------+
-; Altera ; LPM_RAM_DQ   ; N/A     ; N/A          ; N/A          ; |AP9|VGA_MOD:inst|lpm_ram_dq1:inst2                 ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/lpm_ram_dq1.vhd ;
-; Altera ; RAM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |AP9|VGA_MOD:inst|lpm_ram_dq0:inst3                 ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/lpm_ram_dq0.vhd ;
-; Altera ; FIFO         ; N/A     ; N/A          ; N/A          ; |AP9|VGA_MOD:inst|fifo0:inst7                       ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/fifo0.vhd       ;
-; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |AP9|VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff0:inst  ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/lpm_dff0.vhd    ;
-; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |AP9|VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff0:inst1 ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/lpm_dff0.vhd    ;
-; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |AP9|VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff2:inst2 ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/lpm_dff2.vhd    ;
-; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |AP9|VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff2:inst3 ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/lpm_dff2.vhd    ;
-; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |AP9|VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff2:inst4 ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/lpm_dff2.vhd    ;
-; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |AP9|lpm_dff1:inst1                                 ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/lpm_dff1.vhd    ;
-; Altera ; ROM: 1-PORT  ; 10.1    ; N/A          ; N/A          ; |AP9|lpm_rom0:inst3                                 ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/lpm_rom0.vhd    ;
-; Altera ; RAM: 1-PORT  ; 13.0    ; N/A          ; N/A          ; |AP9|RAM:inst6                                      ; C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/RAM.vhd         ;
-+--------+--------------+---------+--------------+--------------+-----------------------------------------------------+--------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                                                                                          ;
++--------+--------------+---------+--------------+--------------+-----------------------------------------------------+----------------------------------------------------------------------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                     ; IP Include File                                                                                          ;
++--------+--------------+---------+--------------+--------------+-----------------------------------------------------+----------------------------------------------------------------------------------------------------------+
+; Altera ; LPM_RAM_DQ   ; N/A     ; N/A          ; N/A          ; |AP9|VGA_MOD:inst|lpm_ram_dq1:inst2                 ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/lpm_ram_dq1.vhd ;
+; Altera ; RAM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |AP9|VGA_MOD:inst|lpm_ram_dq0:inst3                 ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/lpm_ram_dq0.vhd ;
+; Altera ; FIFO         ; N/A     ; N/A          ; N/A          ; |AP9|VGA_MOD:inst|fifo0:inst7                       ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/fifo0.vhd       ;
+; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |AP9|VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff0:inst  ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/lpm_dff0.vhd    ;
+; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |AP9|VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff0:inst1 ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/lpm_dff0.vhd    ;
+; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |AP9|VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff2:inst2 ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/lpm_dff2.vhd    ;
+; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |AP9|VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff2:inst3 ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/lpm_dff2.vhd    ;
+; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |AP9|VGA_MOD:inst|VIDEO_FILTER:inst8|lpm_dff2:inst4 ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/lpm_dff2.vhd    ;
+; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |AP9|lpm_dff1:inst1                                 ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/lpm_dff1.vhd    ;
+; Altera ; ROM: 1-PORT  ; 10.1    ; N/A          ; N/A          ; |AP9|lpm_rom0:inst3                                 ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/lpm_rom0.vhd    ;
+; Altera ; RAM: 1-PORT  ; 13.0    ; N/A          ; N/A          ; |AP9|RAM:inst6                                      ; C:/Users/8598732/Downloads/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/RAM.vhd         ;
++--------+--------------+---------+--------------+--------------+-----------------------------------------------------+----------------------------------------------------------------------------------------------------------+
 
 
 Encoding Type:  One-Hot
@@ -483,20 +482,20 @@ Encoding Type:  One-Hot
 +-----------------------------------------------------+-----------------------+------------------------+
 ; cpu:inst16|result[14]                               ; cpu:inst16|result[14] ; yes                    ;
 ; cpu:inst16|result[13]                               ; cpu:inst16|result[14] ; yes                    ;
-; cpu:inst16|result[11]                               ; cpu:inst16|result[14] ; yes                    ;
+; cpu:inst16|result[12]                               ; cpu:inst16|result[14] ; yes                    ;
 ; cpu:inst16|result[10]                               ; cpu:inst16|result[14] ; yes                    ;
 ; cpu:inst16|result[9]                                ; cpu:inst16|result[14] ; yes                    ;
 ; cpu:inst16|result[8]                                ; cpu:inst16|result[14] ; yes                    ;
 ; cpu:inst16|result[7]                                ; cpu:inst16|result[14] ; yes                    ;
 ; cpu:inst16|result[6]                                ; cpu:inst16|result[14] ; yes                    ;
 ; cpu:inst16|result[5]                                ; cpu:inst16|result[14] ; yes                    ;
+; cpu:inst16|result[11]                               ; cpu:inst16|result[14] ; yes                    ;
+; cpu:inst16|result[0]                                ; cpu:inst16|result[14] ; yes                    ;
 ; cpu:inst16|result[4]                                ; cpu:inst16|result[14] ; yes                    ;
 ; cpu:inst16|result[3]                                ; cpu:inst16|result[14] ; yes                    ;
 ; cpu:inst16|result[2]                                ; cpu:inst16|result[14] ; yes                    ;
 ; cpu:inst16|result[1]                                ; cpu:inst16|result[14] ; yes                    ;
-; cpu:inst16|result[0]                                ; cpu:inst16|result[14] ; yes                    ;
 ; cpu:inst16|result[15]                               ; cpu:inst16|result[14] ; yes                    ;
-; cpu:inst16|result[12]                               ; cpu:inst16|result[14] ; yes                    ;
 ; Number of user-specified and inferred latches = 16  ;                       ;                        ;
 +-----------------------------------------------------+-----------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
@@ -508,8 +507,6 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Register name                                                                                                      ; Reason for Removal                                                                                                             ;
 +--------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
 ; cpu:inst16|selM6[1,2]                                                                                              ; Stuck at GND due to stuck port data_in                                                                                         ;
-; cpu:inst16|LoadSP                                                                                                  ; Stuck at GND due to stuck port data_in                                                                                         ;
-; cpu:inst16|M3[0..15]                                                                                               ; Lost fanout                                                                                                                    ;
 ; cpu:inst16|TECLADO[8..15]                                                                                          ; Stuck at GND due to stuck port data_in                                                                                         ;
 ; LCD_MOD:inst12|ITER[1,2]                                                                                           ; Merged with LCD_MOD:inst12|ITER[0]                                                                                             ;
 ; testeabc:inst18|estado[2,3]                                                                                        ; Merged with testeabc:inst18|estado[1]                                                                                          ;
@@ -530,19 +527,8 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; TEXT_DRAWER:inst2|LNAUX[2]                                                                                         ; Merged with TEXT_DRAWER:inst2|CHARADDR[2]                                                                                      ;
 ; TEXT_DRAWER:inst2|LNAUX[1]                                                                                         ; Merged with TEXT_DRAWER:inst2|CHARADDR[1]                                                                                      ;
 ; TEXT_DRAWER:inst2|LNAUX[0]                                                                                         ; Merged with TEXT_DRAWER:inst2|CHARADDR[0]                                                                                      ;
-; Total Number of Removed Registers = 69                                                                             ;                                                                                                                                ;
+; Total Number of Removed Registers = 52                                                                             ;                                                                                                                                ;
 +--------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                               ;
-+-------------------+---------------------------+-------------------------------------------------------------------------------------------+
-; Register name     ; Reason for Removal        ; Registers Removed due to This Register                                                    ;
-+-------------------+---------------------------+-------------------------------------------------------------------------------------------+
-; cpu:inst16|LoadSP ; Stuck at GND              ; cpu:inst16|M3[15], cpu:inst16|M3[14], cpu:inst16|M3[11], cpu:inst16|M3[8],                ;
-;                   ; due to stuck port data_in ; cpu:inst16|M3[7], cpu:inst16|M3[6], cpu:inst16|M3[5], cpu:inst16|M3[4], cpu:inst16|M3[3], ;
-;                   ;                           ; cpu:inst16|M3[2], cpu:inst16|M3[1], cpu:inst16|M3[0]                                      ;
-+-------------------+---------------------------+-------------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -550,12 +536,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 770   ;
-; Number of registers using Synchronous Clear  ; 37    ;
-; Number of registers using Synchronous Load   ; 179   ;
+; Total registers                              ; 771   ;
+; Number of registers using Synchronous Clear  ; 38    ;
+; Number of registers using Synchronous Load   ; 180   ;
 ; Number of registers using Asynchronous Clear ; 421   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 367   ;
+; Number of registers using Clock Enable       ; 370   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -587,8 +573,8 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; LCD_MOD:inst12|INPC[6]                  ; 1       ;
 ; LCD_MOD:inst12|INPC[9]                  ; 1       ;
 ; LCD_MOD:inst12|INPC[8]                  ; 1       ;
-; LCD_MOD:inst12|INPC[10]                 ; 1       ;
 ; LCD_MOD:inst12|INPC[11]                 ; 1       ;
+; LCD_MOD:inst12|INPC[10]                 ; 1       ;
 ; LCD_MOD:inst12|INPC[13]                 ; 1       ;
 ; LCD_MOD:inst12|INPC[12]                 ; 1       ;
 ; LCD_MOD:inst12|INPC[15]                 ; 1       ;
@@ -621,36 +607,36 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                           ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------------+
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |AP9|cpu:inst16|FR[7]                                                                ;
-; 3:1                ; 10 bits   ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; Yes        ; |AP9|VGA_MOD:inst|VGA_SYNC:inst|Vcnt[3]                                              ;
-; 3:1                ; 17 bits   ; 34 LEs        ; 0 LEs                ; 34 LEs                 ; Yes        ; |AP9|TEXT_DRAWER:inst2|PREVYPOS[3]                                                   ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |AP9|cpu:inst16|vga_char[9]                                                          ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |AP9|cpu:inst16|FR[15]                                                               ;
+; 3:1                ; 10 bits   ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; Yes        ; |AP9|VGA_MOD:inst|VGA_SYNC:inst|Vcnt[8]                                              ;
+; 3:1                ; 17 bits   ; 34 LEs        ; 0 LEs                ; 34 LEs                 ; Yes        ; |AP9|TEXT_DRAWER:inst2|PREVYPOS[1]                                                   ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |AP9|cpu:inst16|vga_char[11]                                                         ;
 ; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |AP9|dec_keyboard:inst11|bin_digit[7]                                                ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |AP9|TEXT_DRAWER:inst2|XP[3]                                                         ;
-; 4:1                ; 9 bits    ; 18 LEs        ; 9 LEs                ; 9 LEs                  ; Yes        ; |AP9|TEXT_DRAWER:inst2|YP[4]                                                         ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |AP9|TEXT_DRAWER:inst2|YP[3]                                                         ;
+; 4:1                ; 9 bits    ; 18 LEs        ; 9 LEs                ; 9 LEs                  ; Yes        ; |AP9|TEXT_DRAWER:inst2|XP[6]                                                         ;
 ; 5:1                ; 2 bits    ; 6 LEs         ; 2 LEs                ; 4 LEs                  ; Yes        ; |AP9|testeabc:inst18|estado[1]                                                       ;
-; 16:1               ; 2 bits    ; 20 LEs        ; 6 LEs                ; 14 LEs                 ; Yes        ; |AP9|LCD_MOD:inst12|LCD_RW                                                           ;
-; 9:1                ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; Yes        ; |AP9|LCD_MOD:inst12|MAINSTATE[0]                                                     ;
+; 16:1               ; 2 bits    ; 20 LEs        ; 6 LEs                ; 14 LEs                 ; Yes        ; |AP9|LCD_MOD:inst12|LCD_RS                                                           ;
+; 9:1                ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; Yes        ; |AP9|LCD_MOD:inst12|MAINSTATE[1]                                                     ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |AP9|dec_keyboard:inst11|cc[0]                                                       ;
 ; 5:1                ; 4 bits    ; 12 LEs        ; 4 LEs                ; 8 LEs                  ; Yes        ; |AP9|keyboard:inst14|INCNT[3]                                                        ;
 ; 5:1                ; 5 bits    ; 15 LEs        ; 10 LEs               ; 5 LEs                  ; Yes        ; |AP9|cpu:inst16|OP[1]                                                                ;
 ; 17:1               ; 4 bits    ; 44 LEs        ; 4 LEs                ; 40 LEs                 ; Yes        ; |AP9|TEXT_DRAWER:inst2|PIXCNT[1]                                                     ;
 ; 5:1                ; 2 bits    ; 6 LEs         ; 2 LEs                ; 4 LEs                  ; Yes        ; |AP9|cpu:inst16|selM2[1]                                                             ;
-; 18:1               ; 22 bits   ; 264 LEs       ; 22 LEs               ; 242 LEs                ; Yes        ; |AP9|LCD_MOD:inst12|COUNTER[6]                                                       ;
-; 17:1               ; 6 bits    ; 66 LEs        ; 6 LEs                ; 60 LEs                 ; Yes        ; |AP9|LCD_MOD:inst12|ITER[8]                                                          ;
-; 19:1               ; 4 bits    ; 48 LEs        ; 4 LEs                ; 44 LEs                 ; Yes        ; |AP9|TEXT_DRAWER:inst2|LNCNT[0]                                                      ;
-; 9:1                ; 3 bits    ; 18 LEs        ; 9 LEs                ; 9 LEs                  ; Yes        ; |AP9|cpu:inst16|FR[1]                                                                ;
-; 20:1               ; 2 bits    ; 26 LEs        ; 6 LEs                ; 20 LEs                 ; Yes        ; |AP9|TEXT_DRAWER:inst2|STATE[2]                                                      ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 48 LEs               ; 32 LEs                 ; Yes        ; |AP9|cpu:inst16|M5[13]                                                               ;
-; 9:1                ; 16 bits   ; 96 LEs        ; 48 LEs               ; 48 LEs                 ; Yes        ; |AP9|cpu:inst16|M4[5]                                                                ;
-; 17:1               ; 15 bits   ; 165 LEs       ; 45 LEs               ; 120 LEs                ; Yes        ; |AP9|cpu:inst16|M1[9]                                                                ;
+; 18:1               ; 22 bits   ; 264 LEs       ; 22 LEs               ; 242 LEs                ; Yes        ; |AP9|LCD_MOD:inst12|COUNTER[14]                                                      ;
+; 17:1               ; 6 bits    ; 66 LEs        ; 6 LEs                ; 60 LEs                 ; Yes        ; |AP9|LCD_MOD:inst12|ITER[6]                                                          ;
+; 19:1               ; 4 bits    ; 48 LEs        ; 4 LEs                ; 44 LEs                 ; Yes        ; |AP9|TEXT_DRAWER:inst2|LNCNT[1]                                                      ;
+; 9:1                ; 3 bits    ; 18 LEs        ; 9 LEs                ; 9 LEs                  ; Yes        ; |AP9|cpu:inst16|FR[0]                                                                ;
+; 20:1               ; 2 bits    ; 26 LEs        ; 6 LEs                ; 20 LEs                 ; Yes        ; |AP9|TEXT_DRAWER:inst2|STATE[1]                                                      ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 48 LEs               ; 32 LEs                 ; Yes        ; |AP9|cpu:inst16|M5[10]                                                               ;
+; 10:1               ; 16 bits   ; 96 LEs        ; 48 LEs               ; 48 LEs                 ; Yes        ; |AP9|cpu:inst16|M4[15]                                                               ;
+; 17:1               ; 15 bits   ; 165 LEs       ; 45 LEs               ; 120 LEs                ; Yes        ; |AP9|cpu:inst16|M1[3]                                                                ;
 ; 79:1               ; 3 bits    ; 156 LEs       ; 114 LEs              ; 42 LEs                 ; Yes        ; |AP9|LCD_MOD:inst12|LCD_DATA[1]                                                      ;
-; 3:1                ; 6 bits    ; 12 LEs        ; 0 LEs                ; 12 LEs                 ; Yes        ; |AP9|TEXT_DRAWER:inst2|PREVXPOS[5]                                                   ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |AP9|LCD_MOD:inst12|INPC[11]                                                         ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |AP9|LCD_MOD:inst12|INKEYB[2]                                                        ;
-; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; Yes        ; |AP9|cpu:inst16|y[15]                                                                ;
-; 12:1               ; 16 bits   ; 128 LEs       ; 112 LEs              ; 16 LEs                 ; Yes        ; |AP9|cpu:inst16|x[14]                                                                ;
-; 28:1               ; 4 bits    ; 72 LEs        ; 40 LEs               ; 32 LEs                 ; Yes        ; |AP9|LCD_MOD:inst12|STATE[3]                                                         ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 0 LEs                ; 12 LEs                 ; Yes        ; |AP9|TEXT_DRAWER:inst2|PREVXPOS[0]                                                   ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |AP9|LCD_MOD:inst12|INPC[9]                                                          ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |AP9|LCD_MOD:inst12|INKEYB[4]                                                        ;
+; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; Yes        ; |AP9|cpu:inst16|y[5]                                                                 ;
+; 12:1               ; 16 bits   ; 128 LEs       ; 112 LEs              ; 16 LEs                 ; Yes        ; |AP9|cpu:inst16|x[4]                                                                 ;
+; 28:1               ; 4 bits    ; 72 LEs        ; 40 LEs               ; 32 LEs                 ; Yes        ; |AP9|LCD_MOD:inst12|STATE[2]                                                         ;
 ; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; No         ; |AP9|cpu:inst16|reg                                                                  ;
 ; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; No         ; |AP9|cpu:inst16|reg                                                                  ;
 ; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; No         ; |AP9|cpu:inst16|reg                                                                  ;
@@ -659,21 +645,21 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; No         ; |AP9|cpu:inst16|reg                                                                  ;
 ; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; No         ; |AP9|cpu:inst16|reg                                                                  ;
 ; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; No         ; |AP9|cpu:inst16|reg                                                                  ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |AP9|cpu:inst16|ShiftLeft1                                                           ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |AP9|cpu:inst16|ShiftRight1                                                          ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |AP9|TEXT_DRAWER:inst2|Mux70                                                         ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |AP9|VGA_MOD:inst|busmux:inst15|lpm_mux:$00000|mux_tsc:auto_generated|result_node[4] ;
-; 8:1                ; 33 bits   ; 165 LEs       ; 165 LEs              ; 0 LEs                  ; No         ; |AP9|cpu:inst16|Mux11                                                                ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |AP9|VGA_MOD:inst|busmux:inst13|lpm_mux:$00000|mux_arc:auto_generated|result_node[0] ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |AP9|VGA_MOD:inst|busmux:inst15|lpm_mux:$00000|mux_tsc:auto_generated|result_node[2] ;
+; 8:1                ; 33 bits   ; 165 LEs       ; 165 LEs              ; 0 LEs                  ; No         ; |AP9|cpu:inst16|Mux82                                                                ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |AP9|VGA_MOD:inst|busmux:inst13|lpm_mux:$00000|mux_arc:auto_generated|result_node[3] ;
 ; 8:1                ; 8 bits    ; 40 LEs        ; 24 LEs               ; 16 LEs                 ; No         ; |AP9|cpu:inst16|M2                                                                   ;
 ; 8:1                ; 8 bits    ; 40 LEs        ; 32 LEs               ; 8 LEs                  ; No         ; |AP9|cpu:inst16|M2                                                                   ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |AP9|cpu:inst16|Mux37                                                                ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |AP9|cpu:inst16|Mux28                                                                ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |AP9|cpu:inst16|ShiftRight1                                                          ;
-; 8:1                ; 32 bits   ; 160 LEs       ; 160 LEs              ; 0 LEs                  ; No         ; |AP9|cpu:inst16|Mux88                                                                ;
-; 5:1                ; 4 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |AP9|cpu:inst16|ShiftLeft1                                                           ;
+; 8:1                ; 32 bits   ; 160 LEs       ; 160 LEs              ; 0 LEs                  ; No         ; |AP9|cpu:inst16|Mux76                                                                ;
+; 5:1                ; 4 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |AP9|cpu:inst16|ShiftRight1                                                          ;
 ; 6:1                ; 2 bits    ; 8 LEs         ; 2 LEs                ; 6 LEs                  ; No         ; |AP9|cpu:inst16|state                                                                ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |AP9|cpu:inst16|selM2                                                                ;
-; 9:1                ; 16 bits   ; 96 LEs        ; 64 LEs               ; 32 LEs                 ; No         ; |AP9|cpu:inst16|result[14]                                                           ;
-; 11:1               ; 16 bits   ; 112 LEs       ; 64 LEs               ; 48 LEs                 ; No         ; |AP9|cpu:inst16|Mux100                                                               ;
+; 9:1                ; 16 bits   ; 96 LEs        ; 64 LEs               ; 32 LEs                 ; No         ; |AP9|cpu:inst16|result[8]                                                            ;
+; 11:1               ; 16 bits   ; 112 LEs       ; 64 LEs               ; 48 LEs                 ; No         ; |AP9|cpu:inst16|Mux101                                                               ;
 ; 14:1               ; 14 bits   ; 126 LEs       ; 56 LEs               ; 70 LEs                 ; No         ; |AP9|cpu:inst16|reg                                                                  ;
 ; 14:1               ; 14 bits   ; 126 LEs       ; 56 LEs               ; 70 LEs                 ; No         ; |AP9|cpu:inst16|reg                                                                  ;
 ; 14:1               ; 14 bits   ; 126 LEs       ; 56 LEs               ; 70 LEs                 ; No         ; |AP9|cpu:inst16|reg                                                                  ;
@@ -1366,7 +1352,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:54     ;
+; Top            ; 00:00:18     ;
 +----------------+--------------+
 
 
@@ -1376,7 +1362,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Tue May 19 20:57:13 2015
+    Info: Processing started: Wed Jul 01 09:14:55 2015
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off AP9 -c AP9
 Warning (125092): Tcl Script File ../../ProcUktimaVersao/ProcessadorRegsVariables_SemInstrucoesUltima1/lpm_mux1.qip not found
     Info (125063): set_global_assignment -name QIP_FILE ../../ProcUktimaVersao/ProcessadorRegsVariables_SemInstrucoesUltima1/lpm_mux1.qip
@@ -1409,9 +1395,7 @@ Info (12021): Found 2 design units, including 1 entities, in source file ascii_c
 Info (12021): Found 2 design units, including 1 entities, in source file ram.vhd
     Info (12022): Found design unit 1: ram-SYN
     Info (12023): Found entity 1: RAM
-Info (12021): Found 2 design units, including 1 entities, in source file ap9_cpu.vhd
-    Info (12022): Found design unit 1: AP9_cpu-main
-    Info (12023): Found entity 1: AP9_cpu
+Warning (12019): Can't analyze file -- file AP9_cpu.vhd is missing
 Info (12021): Found 2 design units, including 1 entities, in source file pos_conv.vhd
     Info (12022): Found design unit 1: POS_CONV-main
     Info (12023): Found entity 1: POS_CONV
@@ -1605,27 +1589,27 @@ Warning (12125): Using design file cpu.vhd, which is not specified as a design f
     Info (12022): Found design unit 1: cpu-main
     Info (12023): Found entity 1: cpu
 Info (12128): Elaborating entity "cpu" for hierarchy "cpu:inst16"
-Warning (10492): VHDL Process Statement warning at cpu.vhd(766): signal "FR" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at cpu.vhd(775): signal "FR" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at cpu.vhd(776): signal "FR" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at cpu.vhd(853): signal "result" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10631): VHDL Process Statement warning at cpu.vhd(755): inferring latch(es) for signal or variable "result", which holds its previous value in one or more paths through the process
-Info (10041): Inferred latch for "result[0]" at cpu.vhd(755)
-Info (10041): Inferred latch for "result[1]" at cpu.vhd(755)
-Info (10041): Inferred latch for "result[2]" at cpu.vhd(755)
-Info (10041): Inferred latch for "result[3]" at cpu.vhd(755)
-Info (10041): Inferred latch for "result[4]" at cpu.vhd(755)
-Info (10041): Inferred latch for "result[5]" at cpu.vhd(755)
-Info (10041): Inferred latch for "result[6]" at cpu.vhd(755)
-Info (10041): Inferred latch for "result[7]" at cpu.vhd(755)
-Info (10041): Inferred latch for "result[8]" at cpu.vhd(755)
-Info (10041): Inferred latch for "result[9]" at cpu.vhd(755)
-Info (10041): Inferred latch for "result[10]" at cpu.vhd(755)
-Info (10041): Inferred latch for "result[11]" at cpu.vhd(755)
-Info (10041): Inferred latch for "result[12]" at cpu.vhd(755)
-Info (10041): Inferred latch for "result[13]" at cpu.vhd(755)
-Info (10041): Inferred latch for "result[14]" at cpu.vhd(755)
-Info (10041): Inferred latch for "result[15]" at cpu.vhd(755)
+Warning (10492): VHDL Process Statement warning at cpu.vhd(804): signal "FR" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at cpu.vhd(813): signal "FR" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at cpu.vhd(814): signal "FR" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at cpu.vhd(891): signal "result" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10631): VHDL Process Statement warning at cpu.vhd(793): inferring latch(es) for signal or variable "result", which holds its previous value in one or more paths through the process
+Info (10041): Inferred latch for "result[0]" at cpu.vhd(793)
+Info (10041): Inferred latch for "result[1]" at cpu.vhd(793)
+Info (10041): Inferred latch for "result[2]" at cpu.vhd(793)
+Info (10041): Inferred latch for "result[3]" at cpu.vhd(793)
+Info (10041): Inferred latch for "result[4]" at cpu.vhd(793)
+Info (10041): Inferred latch for "result[5]" at cpu.vhd(793)
+Info (10041): Inferred latch for "result[6]" at cpu.vhd(793)
+Info (10041): Inferred latch for "result[7]" at cpu.vhd(793)
+Info (10041): Inferred latch for "result[8]" at cpu.vhd(793)
+Info (10041): Inferred latch for "result[9]" at cpu.vhd(793)
+Info (10041): Inferred latch for "result[10]" at cpu.vhd(793)
+Info (10041): Inferred latch for "result[11]" at cpu.vhd(793)
+Info (10041): Inferred latch for "result[12]" at cpu.vhd(793)
+Info (10041): Inferred latch for "result[13]" at cpu.vhd(793)
+Info (10041): Inferred latch for "result[14]" at cpu.vhd(793)
+Info (10041): Inferred latch for "result[15]" at cpu.vhd(793)
 Info (12128): Elaborating entity "testeabc" for hierarchy "testeabc:inst18"
 Warning (12125): Using design file seletorclock.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: SeletorClock
@@ -1772,7 +1756,7 @@ Warning (13012): Latch cpu:inst16|result[14] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal cpu:inst16|OP[5]
 Warning (13012): Latch cpu:inst16|result[13] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal cpu:inst16|OP[5]
-Warning (13012): Latch cpu:inst16|result[11] has unsafe behavior
+Warning (13012): Latch cpu:inst16|result[12] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal cpu:inst16|OP[5]
 Warning (13012): Latch cpu:inst16|result[10] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal cpu:inst16|OP[5]
@@ -1786,6 +1770,10 @@ Warning (13012): Latch cpu:inst16|result[6] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal cpu:inst16|OP[5]
 Warning (13012): Latch cpu:inst16|result[5] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal cpu:inst16|OP[5]
+Warning (13012): Latch cpu:inst16|result[11] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal cpu:inst16|OP[5]
+Warning (13012): Latch cpu:inst16|result[0] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal cpu:inst16|OP[5]
 Warning (13012): Latch cpu:inst16|result[4] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal cpu:inst16|OP[5]
 Warning (13012): Latch cpu:inst16|result[3] has unsafe behavior
@@ -1794,11 +1782,7 @@ Warning (13012): Latch cpu:inst16|result[2] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal cpu:inst16|OP[5]
 Warning (13012): Latch cpu:inst16|result[1] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal cpu:inst16|OP[5]
-Warning (13012): Latch cpu:inst16|result[0] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal cpu:inst16|OP[5]
 Warning (13012): Latch cpu:inst16|result[15] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal cpu:inst16|OP[5]
-Warning (13012): Latch cpu:inst16|result[12] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal cpu:inst16|OP[5]
 Info (13000): Registers with preset signals will power-up high
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
@@ -1806,19 +1790,18 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "VGA_BLANK_N" is stuck at VCC
     Warning (13410): Pin "LCD_RW" is stuck at GND
     Warning (13410): Pin "LCD_ON" is stuck at VCC
-Info (17049): 16 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 4272 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 4323 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 16 input pins
     Info (21059): Implemented 53 output pins
-    Info (21061): Implemented 4068 logic cells
+    Info (21061): Implemented 4119 logic cells
     Info (21064): Implemented 133 RAM segments
     Info (21062): Implemented 2 DSP elements
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 67 warnings
-    Info: Peak virtual memory: 563 megabytes
-    Info: Processing ended: Tue May 19 20:58:29 2015
-    Info: Elapsed time: 00:01:16
-    Info: Total CPU time (on all processors): 00:01:05
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 68 warnings
+    Info: Peak virtual memory: 551 megabytes
+    Info: Processing ended: Wed Jul 01 09:15:19 2015
+    Info: Elapsed time: 00:00:24
+    Info: Total CPU time (on all processors): 00:00:22
 
 

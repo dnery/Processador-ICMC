@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE115F29) Path("C:/Simoes/USP/Aulas/LabORG/2015/ProcessadorFPGA/AP9 - Template DE115/") File("AP9.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE115F29) Path("C:/Users/8598732/Documents/Production/Processador-ICMC/Processor_FPGA/Processor_Template_VHDL_DE115/") File("AP9.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
